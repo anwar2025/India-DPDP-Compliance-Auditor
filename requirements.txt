@@ -1,0 +1,4 @@
+streamlit
+markitdown
+fpdf2
+openai
