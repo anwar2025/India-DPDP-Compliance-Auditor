@@ -19,8 +19,14 @@ st.markdown("---")
 # Layout columns: Left side for upload & metrics, Right side for detailed breakdown
 col1, col2 = st.columns([1, 2])
 
-# Set up paths matching your workspace structure in image_6f2dc9.jpg
-BASE_DIR = r"E:\Just Build\privacy_policy_tool"
+# # Set up paths matching your workspace structure in image_6f2dc9.jpg
+# BASE_DIR = r"E:\Just Build\privacy_policy_tool"
+# FOLDER_PATH = os.path.join(BASE_DIR, "markdown_files")
+# JSON_CHECKLIST = os.path.join(BASE_DIR, "dpdp_act_2023.json")
+
+# --- CLOUD COMPATIBLE PATHS ---
+# This automatically finds your project directory, whether local or on Streamlit Cloud
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
 FOLDER_PATH = os.path.join(BASE_DIR, "markdown_files")
 JSON_CHECKLIST = os.path.join(BASE_DIR, "dpdp_act_2023.json")
 
@@ -127,6 +133,10 @@ with col2:
                     st.warning(remediation)
     else:
         st.info("Your detailed compliance scorecard, clause-by-clause evaluation text, and recommendations will be displayed here once you run the audit engine.")
+
+
+
+
 
 
 
