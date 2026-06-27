@@ -1,0 +1,625 @@
+[
+    {
+        "Control_ID": "DPDP-C-001",
+        "Clause_Name": "Legal Basis for Processing",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): consent. Found in text: \"By using the website, you accept and consent to the practices described in this privacy policy.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-C-002",
+        "Clause_Name": "Consent Mechanism Specification",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): consent, specific, explicit consent. Found in text: \"By using the website, you accept and consent to the practices described in this privacy policy.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-C-003",
+        "Clause_Name": "Purpose-Specific Consent",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (separate consent, granular consent, purpose-specific, individual purpose, each purpose, separate permission, granular choice) were detected in the text.",
+        "Suggested_Remediation": "Implement a consent management interface that displays each processing purpose distinctly with separate opt-in toggles."
+    },
+    {
+        "Control_ID": "DPDP-C-004",
+        "Clause_Name": "Consent Dashboard Access",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (access consent, manage consent, consent dashboard, consent preferences, consent settings, view consent, consent portal, consent manager) were detected in the text.",
+        "Suggested_Remediation": "Build or integrate a consent management platform where users can view, modify, and withdraw consent for each purpose."
+    },
+    {
+        "Control_ID": "DPDP-C-005",
+        "Clause_Name": "Pre-Processing Consent",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (before processing, prior consent, consent before collection, obtain consent first, pre-collection consent, advance consent) were detected in the text.",
+        "Suggested_Remediation": "Restructure data collection flows so that no data is collected before consent is obtained. Implement technical controls to block data submission until consent is confirmed."
+    },
+    {
+        "Control_ID": "DPDP-CW-001",
+        "Clause_Name": "Consent Withdrawal and Data Deletion",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): opt-out. Found in text: \"These entities and affiliates may market to you as a result of such sharing unless you explicitly opt-out.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-C-006",
+        "Clause_Name": "Consent Notice",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): notice. Found in text: \"This notice describes the privacy policy of\u00a0uspoloassn.in\u00a0**E:****care@uspoloassn.in**\u00a0(the \"Website\").\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-C-007",
+        "Clause_Name": "Effect of Consent Withdrawal",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (consequences of withdrawal, effect of withdrawal, erase upon withdrawal, deletion after withdrawal, stop processing, data deletion on withdrawal) were detected in the text.",
+        "Suggested_Remediation": "Implement automated workflows that trigger data deletion across all systems when consent is withdrawn, with exception handling for legally-mandated retention."
+    },
+    {
+        "Control_ID": "DPDP-C-008",
+        "Clause_Name": "Consent Manager Disclosure",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (consent manager, CMP, consent management platform, third party consent, deemed consent, consent intermediary) were detected in the text.",
+        "Suggested_Remediation": "If using a CMP, register it if required, ensure it complies with DPDP requirements, and disclose its use in the Privacy Policy."
+    },
+    {
+        "Control_ID": "DPDP-CH-001",
+        "Clause_Name": "Children's Data and Parental Consent",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (child, children, minor, under 18, below 18, parental consent, guardian consent, verifiable parental consent, age verification, parent permission) were detected in the text.",
+        "Suggested_Remediation": "Implement an age-gate at entry point, parental consent workflow with verification (email/SMS/ID verification), and automated deletion if parental consent is not obtained within a specified timeframe."
+    },
+    {
+        "Control_ID": "DPDP-CH-002",
+        "Clause_Name": "Prohibited Processing of Children's Data",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (tracking, behavioral monitoring, targeted advertising, directed at children, child tracking, behavioral advertising children, monitoring children, profiling children) were detected in the text.",
+        "Suggested_Remediation": "Configure ad-tech and analytics to exclude users flagged as under-18. Disable behavioral tracking cookies for child users. Implement age-gating that blocks tracking before age is verified."
+    },
+    {
+        "Control_ID": "DPDP-CH-003",
+        "Clause_Name": "N/A - Government Notification Dependent",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (government notification, notified class, exempted, children's data exemption, class of fiduciaries, prescribed conditions) were detected in the text.",
+        "Suggested_Remediation": "Monitor government notifications for exemptions. If claiming exemption, maintain documentation of the applicable notification and ensure compliance with all conditions."
+    },
+    {
+        "Control_ID": "DPDP-CH-004",
+        "Clause_Name": "Age Verification and Child Safety",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (age verification, verify age, age gate, date of birth verification, age confirmation, likely to cause detrimental effect, child well-being) were detected in the text.",
+        "Suggested_Remediation": "Implement age-gating mechanism at signup or before data collection. Use DOB collection or third-party age verification. Flag child accounts for restricted processing."
+    },
+    {
+        "Control_ID": "DPDP-LU-001",
+        "Clause_Name": "Legitimate Use - Government Services",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (government service, state function, benefit to data principal, public service, government benefit, statutory function) were detected in the text.",
+        "Suggested_Remediation": "If relying on Section 7(a), document the specific State function or service being performed and maintain legal basis assessment."
+    },
+    {
+        "Control_ID": "DPDP-LU-002",
+        "Clause_Name": "Legal Obligation Processing",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): legal obligation, court order, legal process. Found in text: \"This disclosure may be required for us to provide you access to our website, to comply with our legal obligations, to enforce our Terms & Conditions, to facilitate our marketing and advertising activities, or to prevent, detect, mitigate, and investigate fraudulent or illegal activities related to use of our website.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-LU-003",
+        "Clause_Name": "Medical Emergency Processing",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (medical emergency, threat to life, health emergency, immediate threat, medical treatment, healthcare emergency, life-threatening) were detected in the text.",
+        "Suggested_Remediation": "Establish a clear emergency processing protocol that limits data use to what is strictly necessary for the emergency response."
+    },
+    {
+        "Control_ID": "DPDP-LU-004",
+        "Clause_Name": "Employment-Related Data Processing",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (employment, employee data, recruitment, termination, verification, HR processing, employer, employment purpose, personnel records) were detected in the text.",
+        "Suggested_Remediation": "Implement an employee privacy notice separate from the customer privacy policy that addresses employment-specific processing."
+    },
+    {
+        "Control_ID": "DPDP-LU-005",
+        "Clause_Name": "National Security Processing",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (national security, sovereignty, public order, state security, friendly relations, prevention of offense, security of state) were detected in the text.",
+        "Suggested_Remediation": "This provision is primarily for government agencies. Private entities should generally not rely on this basis."
+    },
+    {
+        "Control_ID": "DPDP-PN-001",
+        "Clause_Name": "Information We Collect and Why",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (personal data collected, types of data, categories of data, data we collect, information collected, collection purpose, purpose of processing, what we collect) were detected in the text.",
+        "Suggested_Remediation": "Conduct a data mapping exercise and create a data inventory. Publish this information in the Privacy Policy in a clear, structured format."
+    },
+    {
+        "Control_ID": "DPDP-PN-002",
+        "Clause_Name": "Who We Are and How to Contact Us",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (identity, contact details, data protection officer, DPO, grievance officer, company name, registered address, contact us, who we are) were detected in the text.",
+        "Suggested_Remediation": "Include a prominent section in the Privacy Policy with complete identity details. Ensure the Grievance Officer's contact information is accurate and monitored."
+    },
+    {
+        "Control_ID": "DPDP-PN-003",
+        "Clause_Name": "Who We Share Your Data With",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): share, disclosure, third parties. Found in text: \"Privacy Policy**\n\nArvind Lifestyle Brands Limited (\"Arvind\") knows that you care how your information is used and shared, and we appreciate your trust in us to do that carefully and sensibly.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-PN-004",
+        "Clause_Name": "How Long We Keep Your Data",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (retention period, retain, storage period, keep data, how long, retention schedule, data retention, stored for, criteria for retention, determine retention) were detected in the text.",
+        "Suggested_Remediation": "Create a data retention schedule that maps each data category to its retention period. Publish this information in the Privacy Policy."
+    },
+    {
+        "Control_ID": "DPDP-PN-005",
+        "Clause_Name": "How to File a Complaint",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): grievance. Found in text: \"Inquiries, Concerns, and Grievances\n\nShould you have any concerns, grievances, or issues with the use of the website, the products sold, any related services, or this privacy policy, you can write to us at Arvind at\u00a0**care@uspoloassn.in**\u00a0with a thorough description, and we will try to resolve the issue for you.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-PN-006",
+        "Clause_Name": "International Data Transfers",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (cross-border, international transfer, transfer outside India, overseas transfer, foreign country, data transfer mechanism, adequacy, approved country, data localization) were detected in the text.",
+        "Suggested_Remediation": "Map all cross-border data flows. Disclose destination countries in the Privacy Policy. Ensure transfers comply with Section 16 requirements."
+    },
+    {
+        "Control_ID": "DPDP-PN-007",
+        "Clause_Name": "N/A - Formatting Requirement",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (clear, concise, easily accessible, plain language, simple language, understandable, accessible format, schedule language, Indian language) were detected in the text.",
+        "Suggested_Remediation": "Simplify Privacy Policy language (target Flesch Reading Ease score of 50+). Ensure a Privacy Policy link is visible on every page. Consider providing translations in local languages."
+    },
+    {
+        "Control_ID": "DPDP-PN-008",
+        "Clause_Name": "Data Received from Third Parties",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (not collected directly, indirect collection, third party source, received from another source, not from data principal, collected indirectly, sourced from) were detected in the text.",
+        "Suggested_Remediation": "Implement a workflow to identify indirectly-collected data and trigger the Section 8 notice before first use or disclosure."
+    },
+    {
+        "Control_ID": "DPDP-AC-001",
+        "Clause_Name": "Your Right to Access",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (right to access, access request, obtain confirmation, summary of data, personal data summary, confirm processing, what data we hold, data copy, DSAR) were detected in the text.",
+        "Suggested_Remediation": "Implement a DSAR portal or form. Establish internal workflows to retrieve, summarize, and share data within statutory timelines."
+    },
+    {
+        "Control_ID": "DPDP-AC-002",
+        "Clause_Name": "Your Right to Correction",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (right to correction, correction request, correct inaccurate data, rectify, update data, fix data, amend data, correction of data, misleading data, completion of incomplete data) were detected in the text.",
+        "Suggested_Remediation": "Provide self-service data correction in account settings. For non-editable fields, establish a correction request workflow with verification procedures."
+    },
+    {
+        "Control_ID": "DPDP-AC-003",
+        "Clause_Name": "Your Right to Erasure",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (right to erasure, right to be forgotten, delete data, erase data, deletion request, data deletion, remove data, erase personal data, account deletion) were detected in the text.",
+        "Suggested_Remediation": "Implement a self-service account deletion feature. For manual requests, establish a deletion workflow that handles exceptions for legally-required retention."
+    },
+    {
+        "Control_ID": "DPDP-AC-004",
+        "Clause_Name": "How to Exercise Your Rights",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (exercise rights, how to exercise, manner of exercising, simple process, accessible, rights request, designated channel, submit request) were detected in the text.",
+        "Suggested_Remediation": "Provide multiple channels for rights requests (online form, email, postal). Test the process for simplicity. Avoid requiring excessive identity verification beyond what is necessary."
+    },
+    {
+        "Control_ID": "DPDP-AC-005",
+        "Clause_Name": "Response Time for Rights Requests",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (response time, respond within, timeframe, timeline, reasonable period, prescribed period, extension, delay in response, days to respond) were detected in the text.",
+        "Suggested_Remediation": "Implement a ticketing system to track rights requests with SLA timers. Set up alerts for approaching deadlines."
+    },
+    {
+        "Control_ID": "DPDP-AC-006",
+        "Clause_Name": "Nomination of Representative",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (nominate, nomination, representative, exercise rights on behalf, death, incapacity, personal representative, nominee, authorized representative) were detected in the text.",
+        "Suggested_Remediation": "Implement a nomination feature in account settings or provide a downloadable nomination form. Establish verification procedures for nominees."
+    },
+    {
+        "Control_ID": "DPDP-ER-001",
+        "Clause_Name": "Right to Erasure - Section 12",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (Section 12, right to erasure, erasure of personal data, delete personal data, mandatory erasure, erasure obligation, deletion right) were detected in the text.",
+        "Suggested_Remediation": "Build automated erasure workflows. Maintain a retention exception register documenting the legal basis for retaining data despite erasure requests."
+    },
+    {
+        "Control_ID": "DPDP-GR-001",
+        "Clause_Name": "Grievance Officer Appointment",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): name, website, app. Found in text: \"We collect personally identifiable information (email address, name, and phone number).\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-GR-002",
+        "Clause_Name": "Grievance Redressal Procedure",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (grievance redressal mechanism, complaint mechanism, raise concerns, dispute resolution, complaint handling, redressal process, concern mechanism, how to raise) were detected in the text.",
+        "Suggested_Remediation": "Create a Grievance Redressal Policy with defined timelines for acknowledgment, investigation, and resolution. Implement a complaint tracking system."
+    },
+    {
+        "Control_ID": "DPDP-GR-003",
+        "Clause_Name": "Escalation to Data Protection Board",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (Data Protection Board, escalate, escalation, Board complaint, appeal to Board, regulatory complaint, not satisfied, unresolved grievance) were detected in the text.",
+        "Suggested_Remediation": "Include a clear escalation path in the grievance redressal section. Monitor the Data Protection Board's operational status and update contact details when available."
+    },
+    {
+        "Control_ID": "DPDP-GR-004",
+        "Clause_Name": "Grievance Response Timeline",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (respond within, response timeline, reasonable period, prescribed period, grievance response, acknowledge complaint, resolution time, days to respond) were detected in the text.",
+        "Suggested_Remediation": "Set internal SLAs for complaint acknowledgment (within 48 hours) and resolution (within 30 days). Track and report on response times."
+    },
+    {
+        "Control_ID": "DPDP-DF-001",
+        "Clause_Name": "Data Security Measures",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): security, protect, unauthorized access. Found in text: \"Security Precautions\n\nOur website has stringent security measures in place to protect against the loss, misuse, and alteration of the information under our control.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-DF-002",
+        "Clause_Name": "Data Breach Notification",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): unauthorized access. Found in text: \"Once your information is in our possession, we adhere to strict security guidelines in order to protect it against unauthorized access.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-DF-003",
+        "Clause_Name": "Data Protection Board Registration",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): registration. Found in text: \"While you can browse some sections of our website without being a registered member, certain activities (such as placing an order) do require registration.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-DF-004",
+        "Clause_Name": "Data Accuracy and Updates",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (accurate, up-to-date, accurate data, data quality, complete data, correct data, update information, keep current, data accuracy, ensure accuracy) were detected in the text.",
+        "Suggested_Remediation": "Provide self-service data update functionality. Implement data validation at collection points. Periodically prompt users to review and update their information."
+    },
+    {
+        "Control_ID": "DPDP-DF-005",
+        "Clause_Name": "Data Deletion When Purpose Fulfilled",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (delete when no longer necessary, purpose fulfilled, erase after purpose, no longer needed, deletion obligation, remove when purpose complete, retention limitation) were detected in the text.",
+        "Suggested_Remediation": "Implement automated data deletion schedules triggered by purpose completion or retention period expiry. Maintain deletion logs as evidence."
+    },
+    {
+        "Control_ID": "DPDP-DF-006",
+        "Clause_Name": "Contact for Data Protection Questions",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): contact information. Found in text: \"We use your contact information (mobile number or email address) to send you offers based on your previous orders and your interests.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-DF-007",
+        "Clause_Name": "Data Protection Impact Assessment",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (DPIA, impact assessment, data protection impact, risk assessment, high risk processing, privacy impact, prior consultation, privacy risk) were detected in the text.",
+        "Suggested_Remediation": "Identify high-risk processing activities. Conduct DPIAs before initiating such processing. Maintain DPIA records. Consult the Board where required."
+    },
+    {
+        "Control_ID": "DPDP-DF-008",
+        "Clause_Name": "Records of Processing Activities",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (records of processing, ROPA, processing records, register of processing, processing activities, maintain records, data processing inventory, data map) were detected in the text.",
+        "Suggested_Remediation": "Create and maintain a ROPA document. Update it whenever processing activities change. Make it available for regulatory inspection."
+    },
+    {
+        "Control_ID": "DPDP-DF-009",
+        "Clause_Name": "Data Protection Officer",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (data protection officer, DPO, appointed DPO, resident in India, India-based DPO, significant data fiduciary DPO, DPO requirement) were detected in the text.",
+        "Suggested_Remediation": "Assess whether you qualify as a Significant Data Fiduciary. If yes, appoint a qualified DPO resident in India and publish their contact details."
+    },
+    {
+        "Control_ID": "DPDP-DF-010",
+        "Clause_Name": "Independent Data Auditor",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (data auditor, independent auditor, compliance auditor, audit compliance, significant data fiduciary audit, data protection audit, auditor appointment) were detected in the text.",
+        "Suggested_Remediation": "If you're a Significant Data Fiduciary, identify and appoint an independent auditor with data protection expertise. Conduct annual compliance audits."
+    },
+    {
+        "Control_ID": "DPDP-DR-001",
+        "Clause_Name": "Data Retention Principles",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (retain only as long as necessary, purpose limitation retention, not retain beyond purpose, retention limitation, data minimization retention, retention period tied to purpose) were detected in the text.",
+        "Suggested_Remediation": "Create a retention schedule mapping each data category to its purpose and retention period. Implement technical controls to enforce automatic deletion at retention expiry."
+    },
+    {
+        "Control_ID": "DPDP-DR-002",
+        "Clause_Name": "Legally Required Retention",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (legal obligation retention, required by law, court order retention, statutory retention, mandatory retention, legal hold, regulatory requirement, law requires retention) were detected in the text.",
+        "Suggested_Remediation": "Create a legal retention schedule that identifies the specific law requiring retention for each data category. Implement legal hold procedures for litigation-related retention."
+    },
+    {
+        "Control_ID": "DPDP-DR-003",
+        "Clause_Name": "Exceptions to Erasure",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (exception to erasure, legal claims retention, legal obligation exception, state function retention, retain despite erasure, erasure exception, deletion exception) were detected in the text.",
+        "Suggested_Remediation": "Create an erasure exception assessment procedure. For each erasure request, document the specific exception claimed and the legal basis. Restrict further processing of retained data to the exception purpose only."
+    },
+    {
+        "Control_ID": "DPDP-DS-001",
+        "Clause_Name": "Data Sharing and Recipients",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): third parties. Found in text: \"Additionally, you may encounter cookies or other similar devices on certain pages of the website that are placed by third parties.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-DS-002",
+        "Clause_Name": "Data Processor Obligations",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (data processor, third party security, processor obligations, vendor security, service provider data protection, sub-processor, data processing agreement, DPA) were detected in the text.",
+        "Suggested_Remediation": "Inventory all Data Processors. Execute Data Processing Agreements with each. Conduct periodic vendor security assessments."
+    },
+    {
+        "Control_ID": "DPDP-DS-003",
+        "Clause_Name": "Consent Manager Arrangement",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (consent manager, registered consent manager, acts as agent, does not process own purpose, CMP agreement, consent manager registration) were detected in the text.",
+        "Suggested_Remediation": "Verify Consent Manager registration status. Ensure the agreement specifies the agent relationship and prohibits independent data processing. Audit periodically."
+    },
+    {
+        "Control_ID": "DPDP-CB-001",
+        "Clause_Name": "Cross-Border Data Transfers",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (cross-border transfer, transfer outside India, international transfer, notified country, adequate protection, approved jurisdiction, data export, overseas transfer) were detected in the text.",
+        "Suggested_Remediation": "Monitor government notifications of approved countries. Map all cross-border data flows. Implement approved transfer mechanisms for non-approved countries."
+    },
+    {
+        "Control_ID": "DPDP-CB-002",
+        "Clause_Name": "Cross-Border Transfer Safeguards",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (standard contractual clauses, SCC, intra-group scheme, binding corporate rules, BCR, transfer mechanism, transfer safeguard, approved mechanism, contractual safeguard) were detected in the text.",
+        "Suggested_Remediation": "Identify cross-border transfers to non-approved countries. Execute SCCs or other approved mechanisms. Conduct transfer impact assessments."
+    },
+    {
+        "Control_ID": "DPDP-CB-003",
+        "Clause_Name": "Cross-Border Transfer Notice",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (transfer notice, cross-border notice, destination country, countries where data is transferred, transfer disclosure, international disclosure, where data is stored) were detected in the text.",
+        "Suggested_Remediation": "Create a cross-border transfer register. Disclose transfers in the Privacy Policy. Ensure consent notices mention cross-border transfers at the time of collection."
+    },
+    {
+        "Control_ID": "DPDP-SDF-001",
+        "Clause_Name": "N/A - Internal Assessment",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (significant data fiduciary, SDF, notified entity, government notification, classification criteria, volume of data, sensitive data, new technology) were detected in the text.",
+        "Suggested_Remediation": "Conduct a self-assessment against SDF criteria. Monitor government notifications. If designated as SDF, immediately implement all SDF-specific obligations."
+    },
+    {
+        "Control_ID": "DPDP-SDF-002",
+        "Clause_Name": "Independent Data Audit",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (periodic audit, independent audit, data audit, audit report, submit to Board, SDF audit, significant data fiduciary audit, compliance audit) were detected in the text.",
+        "Suggested_Remediation": "If SDF, establish an audit schedule (recommended: annual). Appoint an independent auditor. Submit reports to the Board within prescribed timelines."
+    },
+    {
+        "Control_ID": "DPDP-SDF-003",
+        "Clause_Name": "Data Protection Impact Assessment",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (DPIA, impact assessment, high risk processing, SDF DPIA, submit to Board, prior consultation, privacy impact assessment, risk assessment) were detected in the text.",
+        "Suggested_Remediation": "If SDF, establish a DPIA protocol. Identify processing activities requiring DPIA. Conduct assessments before initiating processing. Submit to Board as prescribed."
+    },
+    {
+        "Control_ID": "DPDP-SDF-004",
+        "Clause_Name": "Periodic Compliance Reporting",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (compliance report, periodic report, submit to Board, SDF reporting, data protection report, compliance status, regular reporting) were detected in the text.",
+        "Suggested_Remediation": "If SDF, establish a compliance reporting calendar. Prepare templates covering required metrics. Submit reports within prescribed timelines."
+    },
+    {
+        "Control_ID": "DPDP-PL-001",
+        "Clause_Name": "Purpose of Data Processing",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): purpose. Found in text: \"We do not disclose your personal information to third parties for their marketing and advertising purposes without your explicit consent.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-PL-002",
+        "Clause_Name": "New Purpose Consent",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (fresh consent, new purpose, incompatible purpose, secondary processing, further processing, additional consent, re-consent, purpose change, updated consent) were detected in the text.",
+        "Suggested_Remediation": "Implement a purpose compatibility assessment procedure. For incompatible new purposes, trigger a fresh consent workflow before any processing begins."
+    },
+    {
+        "Control_ID": "DPDP-PL-003",
+        "Clause_Name": "Children's Data Purpose Limitation",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (children purpose limitation, child data purpose, parental consent purpose, not for tracking children, not for advertising children, limited purpose children) were detected in the text.",
+        "Suggested_Remediation": "Flag child accounts in your system. Implement technical restrictions preventing processing for prohibited purposes (tracking, advertising) regardless of consent scope."
+    },
+    {
+        "Control_ID": "DPDP-DC-001",
+        "Clause_Name": "What Data We Collect and Why",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): necessary. Found in text: \"We collect personal information from you that we consider necessary to make this happen.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-DC-002",
+        "Clause_Name": "Data Received from Other Sources",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (indirect collection, from other sources, third party collection, not collected directly, received from another, sourced externally, acquired data) were detected in the text.",
+        "Suggested_Remediation": "Tag indirectly-collected data in your systems. Trigger an automated notice workflow upon data import. Block disclosure until notice is delivered."
+    },
+    {
+        "Control_ID": "DPDP-DC-003",
+        "Clause_Name": "Consent Before Collection",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (before collection, prior to collection, consent before, obtain consent first, no collection without consent, pre-collection consent, consent prerequisite) were detected in the text.",
+        "Suggested_Remediation": "Implement technical controls that block data collection until consent is obtained. Audit user flows to ensure no pre-consent data collection occurs."
+    },
+    {
+        "Control_ID": "DPDP-TR-001",
+        "Clause_Name": "N/A",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (clear, concise, accessible, plain language, easy to understand, simple language, readable, transparent, available in language, schedule VIII) were detected in the text.",
+        "Suggested_Remediation": "Simplify Privacy Policy to Flesch Reading Ease 50+. Add prominent link in website footer and app settings. Consider translations in major Indian languages."
+    },
+    {
+        "Control_ID": "DPDP-TR-002",
+        "Clause_Name": "N/A",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (comprehensive, complete privacy policy, all required elements, section 8 compliance, full disclosure, complete notice, all items) were detected in the text.",
+        "Suggested_Remediation": "Conduct a gap analysis of the Privacy Policy against all Section 8(1)-8(7) requirements. Fill all gaps. Use this compliance matrix as a checklist."
+    },
+    {
+        "Control_ID": "DPDP-TR-003",
+        "Clause_Name": "Changes to This Privacy Policy",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (changes to policy, update privacy policy, revised, modified, last updated, effective date, material changes, policy update, we may update, we may change) were detected in the text.",
+        "Suggested_Remediation": "Implement a Privacy Policy change management process. For material changes, notify users in advance and obtain fresh consent where required. Track all versions."
+    },
+    {
+        "Control_ID": "DPDP-TR-004",
+        "Clause_Name": "Consent-Specific Notice",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (at the time of consent, notice with consent, specific notice, consent notice, not merely reference, alongside consent, when seeking consent, consent-time notice) were detected in the text.",
+        "Suggested_Remediation": "Design a concise consent notice that includes all Section 5(6) requirements. Display it prominently alongside the consent mechanism, not buried in a link."
+    },
+    {
+        "Control_ID": "DPDP-TC-001",
+        "Clause_Name": "Data Protection and Privacy Policy Reference",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): privacy policy. Found in text: \"Privacy Policy**\n\nArvind Lifestyle Brands Limited (\"Arvind\") knows that you care how your information is used and shared, and we appreciate your trust in us to do that carefully and sensibly.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-TC-002",
+        "Clause_Name": "N/A - Review for Prohibited Clauses",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (you consent to, you agree that we may use, blanket consent, by using you consent, deemed consent, implied consent, you authorize us to, automatic consent, waive rights) were detected in the text.",
+        "Suggested_Remediation": "Audit T&C for blanket/implied consent language. Replace with explicit consent references. Add a clause preserving DPDP rights."
+    },
+    {
+        "Control_ID": "DPDP-TC-003",
+        "Clause_Name": "Your Data Protection Rights",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (your rights, data principal rights, right to access, right to correction, right to erasure, grievance officer, complain, complaint mechanism, DPDP rights) were detected in the text.",
+        "Suggested_Remediation": "Add a user rights summary clause in the T&C. Cross-reference the detailed rights description in the Privacy Policy. Include Grievance Officer contact details."
+    },
+    {
+        "Control_ID": "DPDP-TC-004",
+        "Clause_Name": "Age Restriction and Children's Use",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (age restriction, 18 years, under 18, age of majority, parental consent required, children, minor, age declaration, not for children) were detected in the text.",
+        "Suggested_Remediation": "Add an age declaration clause in T&C. Implement an age gate. Create a separate children's consent workflow with parental verification."
+    },
+    {
+        "Control_ID": "DPDP-UO-001",
+        "Clause_Name": "Accuracy of Information You Provide",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (accurate information, correct data, false information, misleading data, you warrant, you represent, accuracy obligation, truthful information) were detected in the text.",
+        "Suggested_Remediation": "Add a user accuracy obligation clause in T&C. Provide easy self-service update functionality. Send periodic data accuracy reminders."
+    },
+    {
+        "Control_ID": "DPDP-UO-002",
+        "Clause_Name": "Compliance and Non-Impersonation",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (comply with law, impersonate, not impersonate, false identity, another person, misrepresentation, identity fraud, compliance with DPDP) were detected in the text.",
+        "Suggested_Remediation": "Add a compliance and non-impersonation clause. Implement identity verification for high-risk transactions. Monitor for fraudulent account creation."
+    },
+    {
+        "Control_ID": "DPDP-UO-003",
+        "Clause_Name": "Consequences of Violating Your Obligations",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (terminate, suspend, restrict access, false information consequence, violation consequence, account termination, service restriction, breach of obligations) were detected in the text.",
+        "Suggested_Remediation": "Include a graduated enforcement clause (warning \u2192 suspension \u2192 termination). Ensure the clause is fair and proportionate."
+    },
+    {
+        "Control_ID": "DPDP-SEC-001",
+        "Clause_Name": "Encryption Practices",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): SSL. Found in text: \"By using the website, you expressly consent to our use and disclosure of your personal information by this privacy policy.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-SEC-002",
+        "Clause_Name": "Access Controls",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (access control, role-based, RBAC, need to know, authorized personnel, restricted access, permission, authorization, least privilege, access matrix) were detected in the text.",
+        "Suggested_Remediation": "Implement RBAC. Create role-based access matrices. Enable comprehensive access logging. Conduct quarterly access reviews. Remove access upon role change or termination."
+    },
+    {
+        "Control_ID": "DPDP-SEC-003",
+        "Clause_Name": "Security Incident Response",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): detect, respond. Found in text: \"We use your personal information to help promote a safe transaction; measure consumer interest in our products and related services; inform you about online and offline offers, products, related services, and updates; customize your experience; detect and protect us against error, fraud, and other criminal activity; enforce our terms and conditions; and as otherwise described to you at the time of collection.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-SEC-004",
+        "Clause_Name": "Employee Data Protection Training",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (training, employee training, staff training, awareness, data protection training, security training, privacy training, education, personnel training) were detected in the text.",
+        "Suggested_Remediation": "Develop a DPDP-focused training curriculum. Mandate training for all employees handling personal data. Track completion. Conduct refresher training annually."
+    },
+    {
+        "Control_ID": "DPDP-CK-001",
+        "Clause_Name": "Cookies and Tracking Technologies",
+        "Status": "COMPLIANT",
+        "Findings": "Matched keyword(s): cookie, cookies. Found in text: \"We use data collection devices such as \"cookies\" on certain pages of the website to help analyse our web page flow, measure promotional effectiveness, and promote trust and safety.\"",
+        "Suggested_Remediation": ""
+    },
+    {
+        "Control_ID": "DPDP-CK-002",
+        "Clause_Name": "No Tracking Cookies for Children",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (no tracking children, children cookies, minor cookie tracking, child tracking prohibition, disable cookies children, behavioral cookies children) were detected in the text.",
+        "Suggested_Remediation": "Implement age-based cookie restrictions. Flag minor accounts. Configure CMP to suppress tracking cookies for flagged accounts. Audit cookie placement for child users."
+    },
+    {
+        "Control_ID": "DPDP-SDF-005",
+        "Clause_Name": "Data Protection Officer - India Resident",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (resident in India, India-based, based in India, DPO resident, local DPO, Indian DPO, physically present in India) were detected in the text.",
+        "Suggested_Remediation": "If SDF, appoint a DPO physically resident in India. Maintain Indian address and contact details. Ensure availability during Indian business hours."
+    },
+    {
+        "Control_ID": "DPDP-SDF-006",
+        "Clause_Name": "N/A - Internal Document",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (business continuity, BCP, disaster recovery, DR plan, continuity plan, resilience, operational continuity, emergency plan) were detected in the text.",
+        "Suggested_Remediation": "If SDF, develop a BCP with specific data protection continuity measures. Test the plan annually. Update based on test results."
+    },
+    {
+        "Control_ID": "DPDP-GR-005",
+        "Clause_Name": "N/A - Organizational Design",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (dedicated grievance officer, distinct from support, not customer service, specific authority, DPDP-trained, data protection expertise, designated officer) were detected in the text.",
+        "Suggested_Remediation": "Designate a specific Grievance Officer with clear DPDP authority. Provide DPDP-specific training. Ensure independence from general customer service metrics."
+    },
+    {
+        "Control_ID": "DPDP-AC-007",
+        "Clause_Name": "Right to Nominate",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (nominate, nomination, representative, exercise rights on behalf, death, incapacity, personal representative, nominee, authorized person) were detected in the text.",
+        "Suggested_Remediation": "Create a nomination mechanism (form in account settings or downloadable form). Establish verification procedures for nominees. Maintain nomination records securely."
+    },
+    {
+        "Control_ID": "DPDP-AC-008",
+        "Clause_Name": "Your Right to Grievance Redressal",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (right to grievance, grievance redressal, complaint, register grievance, raise complaint, grievance mechanism, redressal right) were detected in the text.",
+        "Suggested_Remediation": "Provide multiple accessible channels for grievance registration. Ensure the process is simple and well-publicized. Track and respond within timelines."
+    },
+    {
+        "Control_ID": "DPDP-AC-009",
+        "Clause_Name": "No Fee for Rights Exercise",
+        "Status": "MISSING",
+        "Findings": "None of the required keywords (no fee, free of charge, reasonable fee, manifestly unfounded, excessive request, charge for request, fee for access, cost of request) were detected in the text.",
+        "Suggested_Remediation": "Do not charge fees for standard rights requests. Establish criteria for determining 'manifestly unfounded or excessive' requests. Document any fee decisions."
+    }
+]
